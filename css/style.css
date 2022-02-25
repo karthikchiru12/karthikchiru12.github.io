@@ -1,0 +1,817 @@
+html 
+{
+    scroll-behavior: smooth;
+}
+body
+{
+    background-color: indigo;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+.header
+{
+    background-color: indigo;
+}
+
+.img-profile
+{
+    animation: slideDownOnLoad 1s;
+    width: 320px;
+    height: 320px;
+    transition: 2s;
+}
+@keyframes slideDownOnLoad {
+    0% {
+      transform: translateY(-100%);
+    }
+    100% {
+      transform: translateY(0);
+    }
+}
+
+
+.img-profile:hover
+{
+    background-color: black;
+    transition: 2s;
+}
+.name
+{
+    color: white;
+    font-size: 2rem;
+}
+
+.about
+{
+    color: white;
+    list-style-type: none;
+}
+.about-item
+{
+    color: white;
+    padding: 2px 6px;
+    border: 1px solid whitesmoke;
+    margin-bottom: 5px;
+}
+
+.section-head
+{
+    font-size: 2rem;
+}
+
+.section-head-white
+{
+    font-size: 2rem;
+    color: white;
+}
+
+.indigo-bg
+{
+    background-color: indigo;
+    color: white;
+
+}
+
+.antiquewhite-bg
+{
+    background-color: antiquewhite;
+}
+
+.project-card
+{
+    font-size: inherit;
+}
+
+.project-btn a, .project-btn a:hover, .project-btn a:active, .project-btn a:visited, .project-btn a:focus
+{
+    color: white;
+    padding: 4px 8px;
+    border: 1px solid whitesmoke;
+    text-decoration: none;
+    background-color: indigo;
+    text-align: center;
+}
+
+.acard
+{
+    margin-bottom: 20px;
+    font-size: inherit;
+}
+.acard-img
+{
+    width: 100%;
+}
+
+
+.reply-box, .reply-box:hover, .reply-box:active, .reply-box:visited, .reply-box:focus
+{
+    border: 0;
+    width: 20rem;
+}
+
+.other
+{
+    color: white;
+    list-style-type: none;
+}
+.other-item a, .other-item a:active, .other-item a:visited, .other-item a:focus
+{
+    color: white;
+    padding: 4px 6px;
+    border: 1px solid white;
+    text-decoration: none;
+}
+.other-item a:hover
+{
+    color: wheat;
+    padding: 4px 6px;
+    border: 1px solid wheat;
+    text-decoration: none;
+}
+
+footer
+{
+    background-color: indigo;
+    color: white;
+    font-size: small;
+}
+.card-img-top
+{
+    object-fit: fill;
+    width: 250x;
+    height: 100px;
+}
+.card
+{
+    margin-bottom: 10px;
+}
+.card-title
+{
+    color:indigo;
+    font-size: medium;
+}
+.card-header
+{
+    font-size: large;
+}
+.card-text
+{
+    font-size: medium;
+}
+.contact-form
+{
+    font-size: medium;
+    color: black;
+}
+.submit-btn
+{
+    background-color: indigo;
+    color: white;
+}
+.txt-black
+{
+    color: black;
+}
+.bot
+{
+    font-size: medium;
+}
+.about-body
+{
+    color: white;
+}
+.about-body-img
+{
+   position: relative; 
+   width: 100%;
+}
+.about-body-heading
+{
+   font-size: x-large;
+   position: absolute; 
+   top: 120px;
+   left: 260px; 
+   width: 100%; 
+
+}
+.about-body-img
+{
+    width: 300px;
+    height: 300px;
+}
+.about-img
+{
+    animation: slideRightOnLoad 1s;
+    transition: 1s;
+}
+@keyframes slideRightOnLoad {
+    0% {
+      transform: translateX(-100%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+}
+.about-img:hover
+{
+   border-radius: 130px;
+   border-style: inset;
+   transition: 1s;
+   background-color: black;
+}
+
+.linen-bg
+{
+    background-color:linen;
+}
+
+.text-indigo
+{
+    color: indigo;
+}
+.text-tomato
+{
+    color: tomato;
+}
+.text-black
+{
+    color: black;
+}
+.text-wheat
+{
+    color: wheat;
+}
+.hashtag-body
+{
+    color:white;
+    padding: 20px;
+}
+.hashtag-body-tag
+{
+    font-size: 30px;
+}
+.about-me
+{
+    font-size: larger;
+    color: white;
+}
+.company_title
+{
+    font-size: medium;
+}
+.company_role
+{
+    font-size: medium;
+}
+
+
+
+
+
+/*https://codepen.io/bisaillonyannick/pen/pvZeGg*/
+
+.bounce {
+    -webkit-animation: bounce 2s infinite;
+    animation: bounce 2s infinite;
+  }
+  @-webkit-keyframes bounce {
+    0%,
+    20%,
+    50%,
+    80%,
+    100% {
+      -webkit-transform: translateY(0);
+              transform: translateY(0);
+    }
+    40% {
+      -webkit-transform: translateY(-30px);
+              transform: translateY(-30px);
+    }
+    60% {
+      -webkit-transform: translateY(-15px);
+              transform: translateY(-15px);
+    }
+  }
+  @keyframes bounce {
+    0%,
+    20%,
+    50%,
+    80%,
+    100% {
+      -webkit-transform: translateY(0);
+              transform: translateY(0);
+    }
+    40% {
+      -webkit-transform: translateY(-30px);
+              transform: translateY(-30px);
+    }
+    60% {
+      -webkit-transform: translateY(-15px);
+              transform: translateY(-15px);
+    }
+  }
+/*https://codepen.io/bisaillonyannick/pen/pvZeGg*/
+
+
+@media (max-width: 575.98px) 
+{ 
+    .img-profile
+    {
+        width: 160px;
+        height: 160px;
+    }
+    .name
+    {
+        font-size: 20px;
+    }
+    .desg
+    {
+    font-size: small;
+    }
+    .about-item {
+        font-size:11px;
+        padding:4px 8px;
+        margin-bottom: 5px;
+      }
+    .other-item 
+    {
+        font-size:11px;
+        padding:4px 8px;
+        margin-bottom: 5px;
+    }
+    .section-head
+    {
+        font-size: 20px;
+    }
+    .section-head-white
+    {
+        font-size: 20px;
+    }
+    .project-card
+    {
+        font-size: small;
+        margin-bottom: 10px;
+    }
+    .acard
+    {
+        font-size: small;
+    }
+    .navbar
+    {
+        font-size: small;
+    }
+    .card-title
+    {
+        font-size: medium;
+    }
+    .card-header
+    {
+        font-size: medium;
+    }
+    .card-text
+    {
+        font-size: 14px;
+    }
+    .contact-form
+    {
+        font-size: small;
+    }
+    .bot
+    {
+        font-size: small;
+    }
+    .about-body-img
+    {
+        width: 140px;
+        height: 140px;
+    }
+    .about-body-heading
+    {
+        font-size: large;
+        left: 118px;
+        top:40px;
+    }
+    .hashtag-body
+    {
+        padding: 5px;
+    }
+    .hashtag-body-tag
+    {
+        font-size: 20px;
+    }
+    .about-me
+    {
+        font-size: small;
+    }
+    .company_title
+    {
+        font-size: xx-small;
+    }
+    .company_role
+    {
+        font-size: xx-small;
+    }
+ }
+
+
+@media (min-width: 576px) and (max-width: 767.98px)
+{
+    .img-profile
+    {
+        width: 180px;
+        height: 180px;
+    }
+    .name
+    {
+        font-size: 25px;
+    }
+    .desg
+    {
+    font-size: medium;
+    }
+    .about-item {
+        font-size:12px;
+        padding:4px 8px;
+        margin-bottom: 5px;
+      }
+    .other-item 
+    {
+          font-size:12px;
+          padding:4px 8px;
+          margin-bottom: 5px;
+    }
+    .section-head
+    {
+          font-size: 23px;
+    }
+    .section-head-white
+    {
+        font-size: 23px;
+    }
+    .project-card
+    {
+        font-size: medium;
+        margin-bottom: 10px;
+    }
+    .acard
+    {
+        font-size: medium;
+    }
+    .navbar
+    {
+        font-size: medium;
+    }
+    .card-title
+    {
+        font-size: large;
+    }
+    .card-header
+    {
+        font-size: large;
+    }
+    .card-text
+    {
+        font-size: 14px;
+    }
+    .contact-form
+    {
+        font-size: medium;
+    }
+    .bot
+    {
+        font-size: medium;
+    }
+    .about-body-img
+    {
+        width: 160px;
+        height: 160px;
+    }
+    .about-body-heading
+    {
+        font-size: large;
+        left: 138px;
+        top:60px;
+    }
+    .hashtag-body
+    {
+        padding: 6px;
+    }
+    .hashtag-body-tag
+    {
+        font-size: 20px;
+    }
+    .about-me
+    {
+        font-size: medium;
+    }
+    .company_title
+    {
+        font-size: medium;
+    }
+    .company_role
+    {
+        font-size: medium;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) 
+{ 
+    .img-profile
+    {
+        width: 200px;
+        height: 200px;
+    }
+    .name
+    {
+        font-size: 30px;
+    }
+    .desg
+    {
+    font-size: medium;
+    }
+    .about-item {
+        padding:4px 8px;
+        font-size:12px;
+        margin-bottom: 5px;
+      }
+    .other-item 
+    {
+          font-size:12px;
+          padding:4px 8px;
+          margin-bottom: 5px;
+    }
+    .section-head
+    {
+        font-size: 25px;
+    }
+    .section-head-white
+    {
+        font-size: 25px;
+    }
+    .project-card
+    {
+        font-size: medium;
+        margin-bottom: 10px;
+    }
+    .acard
+    {
+        font-size: medium;
+    }
+    .navbar
+    {
+        font-size: medium;
+    }
+    .card-title
+    {
+        font-size: large;
+    }
+    .card-header
+    {
+        font-size: large;
+    }
+    .card-text
+    {
+        font-size: 14px;
+    }
+    .contact-form
+    {
+        font-size: medium;
+    }
+    .bot
+    {
+        font-size: medium;
+    }
+    .about-body-img
+    {
+        width: 180px;
+        height: 180px;
+    }
+    .about-body-heading
+    {
+        font-size: larger;
+        left:155px;
+        top:70px;
+    }
+    .hashtag-body
+    {
+        padding: 8px;
+    }
+    .hashtag-body-tag
+    {
+        font-size: 20px;
+    }
+    .about-me
+    {
+        font-size: medium;
+    }
+    .company_title
+    {
+        font-size: medium;
+    }
+    .company_role
+    {
+        font-size: medium;
+    }
+}
+
+
+@media (min-width: 992px) and (max-width: 1199.98px) 
+{ 
+    .img-profile
+    {
+        width: 250px;
+        height: 250px;
+    }
+    .name
+    {
+        font-size: 35px;
+    }
+    .desg
+    {
+    font-size: medium;
+    }
+    .about-item {
+        padding:4px 8px;
+        font-size:13px;
+        margin-bottom: 5px;
+      }
+    .other-item 
+    {
+          font-size:13px;
+          padding:4px 8px;
+          margin-bottom: 5px;
+    }
+    .section-head
+    {
+        font-size: 30px;
+    }
+    .section-head-white
+    {
+        font-size: 30px;
+    }
+    .project-card
+    {
+        font-size: medium;
+        margin-bottom: 10px;
+    }
+    .acard
+    {
+        font-size: medium;
+    }
+    .navbar
+    {
+        font-size: medium;
+    }
+    .card-title
+    {
+        font-size: large;
+    }
+    .card-header
+    {
+        font-size: large;
+    }
+    .card-text
+    {
+        font-size: 15px;
+    }
+    .contact-form
+    {
+        font-size: medium;
+    }
+    .bot
+    {
+        font-size: medium;
+    }
+    .about-body-img
+    {
+        width: 230px;
+        height: 230px;
+    }
+    .about-body-heading
+    {
+        font-size: x-large;
+        left: 200px;
+        top:70px;
+    }
+    .hashtag-body
+    {
+        padding: 10px;
+    }
+    .hashtag-body-tag
+    {
+        font-size: 30px;
+    }
+    .about-me
+    {
+        font-size: large;
+    }
+    .company_title
+    {
+        font-size: medium;
+    }
+    .company_role
+    {
+        font-size: medium;
+    }
+}
+
+
+@media (min-width: 1200px) 
+{ 
+    .img-profile
+    {
+        width: 320px;
+        height: 320px;
+    }
+    .name
+    {
+        font-size: 40px;
+    }
+    .desg
+    {
+    font-size: large;
+    }
+    .about-item {
+        padding:4px 8px;
+        font-size:14px;
+        margin-bottom: 5px;
+      }
+    .other-item 
+    {
+        font-size:14px;
+        padding:4px 8px;
+        margin-bottom: 5px;
+    }
+    .section-head
+    {
+        font-size: 30px;
+    }
+    .section-head-white
+    {
+        font-size: 30px;
+    }
+    .project-card
+    {
+        font-size: large;
+        margin-bottom: 10px;
+    }
+    .acard
+    {
+        font-size: large;
+        margin-left: 5rem;
+    }
+    .navbar
+    {
+        font-size: medium;
+    }
+    .card-title
+    {
+        font-size: large;
+    }
+    .card-header
+    {
+        font-size: large;
+    }
+    .card-text
+    {
+        font-size: 16px;
+    }
+    .contact-form
+    {
+        font-size: medium;
+    }
+    .bot
+    {
+        font-size: medium;
+    }
+    .about-body-img
+    {
+        width: 300px;
+        height: 300px;
+    }
+    .about-body-heading
+    {
+        font-size: xx-large;
+        left: 260px;
+        top: 120px;
+    }
+    .hashtag-body
+    {
+        padding: 20px;
+    }
+    .hashtag-body-tag
+    {
+        font-size: 30px;
+    }
+    .about-me
+    {
+        font-size: larger;
+    }
+    .company_title
+    {
+        font-size: medium;
+    }
+    .company_role
+    {
+        font-size: medium;
+    }
+}
