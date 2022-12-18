@@ -1,0 +1,399 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: black;
+    color: white;
+}
+
+.profile-greeting {
+    color: white;
+    font-size: xx-large;
+    font-family: 'Rubik', sans-serif;
+    animation: profileGreetingAnimation 1s;
+}
+
+.about-tags {
+    color: white;
+    font-family: 'Rubik', sans-serif;
+    font-size: x-large;
+    animation: aboutTagsAnimation 1.2s;
+}
+
+.media-tags {
+    color: white;
+    font-family: 'Rubik', sans-serif;
+    font-size: x-large;
+    animation: mediaTagsAnimation 1.4s;
+}
+
+.bounce {
+    color: tomato;
+}
+
+.project-image {
+    border: 4px solid tomato;
+}
+
+.btn-primary {
+    background-color: tomato;
+    border: 0;
+    font-weight: 500;
+    font-size: medium;
+    color: black;
+}
+
+.btn-primary:hover {
+    background-color: coral;
+}
+
+.card-text {
+    font-family: 'Rubik', sans-serif;
+    font-size: medium;
+}
+
+.card-title {
+    font-family: 'Rubik', sans-serif;
+    font-size: larger;
+    font-weight: bolder;
+}
+
+.section-title {
+    font-family: 'Rubik', sans-serif;
+    font-size: x-large;
+    font-weight: bolder;
+}
+
+.project-text {
+    font-family: 'Rubik', sans-serif;
+    font-size: large;
+    font-weight: 600;
+    color: black;
+}
+
+.blockquote {
+    color: black;
+    font-size: large;
+    font-family: 'Rubik', sans-serif;
+}
+
+.badge {
+    color: black;
+    background-color: tomato;
+    padding: 1%;
+    font-size: medium;
+    font-family: 'Rubik', sans-serif;
+}
+
+.badge:hover {
+    background-color: coral;
+}
+
+.navbar-nav {
+    color: tomato;
+    font-size: medium;
+    font-family: 'Rubik', sans-serif;
+}
+
+.about-img {
+    position: relative;
+    width: 100%;
+}
+
+.about-heading {
+    font-size: x-large;
+    position: absolute;
+    top: 120px;
+    left: 265px;
+    width: 100%;
+    letter-spacing: 4px;
+    font-family: 'Rubik', sans-serif;
+
+}
+
+.about-img {
+    width: 300px;
+    height: 300px;
+    animation: slideRightOnLoad 1s;
+    transition: 1s;
+}
+
+.about-img:hover {
+    border-radius: 40px;
+    transition: 1s;
+    background-color: wheat;
+}
+
+.about-me {
+    font-size: larger;
+    color: white;
+    font-family: 'Rubik', sans-serif;
+}
+
+.tagquote {
+    font-size: x-large;
+    font-weight: bolder;
+}
+
+.work-experience {
+    color: black;
+    font-family: 'Rubik', sans-serif;
+    font-size: medium;
+}
+
+.work-experience-text {
+    font-size: medium;
+}
+
+#scrollToProjects {
+    cursor: pointer;
+}
+
+@keyframes slideRightOnLoad {
+    0% {
+        transform: translateX(-100%);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+}
+
+@keyframes mediaTagsAnimation {
+    0% {
+        transform: translateX(-100%);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+}
+
+@keyframes profileGreetingAnimation {
+    0% {
+        transform: translateY(-100%);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+
+@keyframes aboutTagsAnimation {
+    0% {
+        transform: translateX(-100%);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+}
+
+@media (max-width: 575.98px) {
+    .about-tags {
+        font-size: medium;
+    }
+
+    .btn-primary {
+        font-size: small;
+    }
+
+    .section-title {
+        font-size: larger;
+    }
+
+    .card-title {
+        font-size: medium;
+    }
+
+    .card-text {
+        font-size: small;
+    }
+
+    .project-text {
+        font-size: small;
+    }
+
+    .about-img {
+        width: 150px;
+        height: 150px;
+    }
+
+    .about-heading {
+        font-size: small;
+        top: 50px;
+        left: 126px;
+    }
+
+    .tagquote {
+        font-size: medium;
+    }
+
+    .about-me {
+        font-size: medium;
+    }
+
+    .work-experience-text {
+        font-size: small;
+    }
+}
+
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .about-tags {
+        font-size: medium;
+    }
+
+    .btn-primary {
+        font-size: small;
+    }
+
+    .section-title {
+        font-size: larger;
+    }
+
+    .card-title {
+        font-size: medium;
+    }
+
+    .card-text {
+        font-size: small;
+    }
+
+    .project-text {
+        font-size: small;
+    }
+
+    .about-img {
+        width: 150px;
+        height: 150px;
+    }
+
+    .about-heading {
+        font-size: small;
+        top: 50px;
+        left: 126px;
+    }
+
+    .tagquote {
+        font-size: medium;
+    }
+
+    .about-me {
+        font-size: medium;
+    }
+    .work-experience-text {
+        font-size: small;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .about-tags {
+        font-size: large;
+    }
+
+    .btn-primary {
+        font-size: medium;
+    }
+
+    .section-title {
+        font-size: larger;
+    }
+
+    .card-title {
+        font-size: large;
+    }
+
+    .card-text {
+        font-size: medium;
+    }
+
+    .project-text {
+        font-size: medium;
+    }
+
+    .about-img {
+        width: 150px;
+        height: 150px;
+    }
+
+    .about-heading {
+        font-size: small;
+        top: 50px;
+        left: 126px;
+    }
+
+    .tagquote {
+        font-size: medium;
+    }
+
+    .about-me {
+        font-size: medium;
+    }
+    .work-experience-text {
+        font-size: small;
+    }
+}
+
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .about-tags {
+        font-size: larger;
+    }
+
+    .btn-primary {
+        font-size: medium;
+    }
+
+    .section-title {
+        font-size: x-large;
+    }
+
+    .card-title {
+        font-size: larger;
+    }
+
+    .card-text {
+        font-size: medium;
+    }
+
+    .project-text {
+        font-size: medium;
+    }
+
+    .tagquote {
+        font-size: large;
+    }
+}
+
+
+@media (min-width: 1200px) {
+    .about-tags {
+        font-size: x-large;
+    }
+
+    .btn-primary {
+        font-size: medium;
+    }
+
+    .section-title {
+        font-size: x-large;
+    }
+
+    .card-title {
+        font-size: larger;
+    }
+
+    .card-text {
+        font-size: medium;
+    }
+
+    .project-text {
+        font-size: medium;
+    }
+
+    .tagquote {
+        font-size: larger;
+    }
+}

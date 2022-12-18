@@ -1,9 +1,9 @@
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 20010904//EN" "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
 <svg version="1.0" xmlns="http://www.w3.org/2000/svg" width="1080px" height="810px" viewBox="0 0 10800 8100" preserveAspectRatio="xMidYMid meet">
-<g id="layer101" fill="#1b010f" stroke="none">
+<g id="layer101" fill="none" stroke="none">
  <path d="M0 4050 l0 -4050 5400 0 5400 0 0 4050 0 4050 -5400 0 -5400 0 0 -4050z"/>
  </g>
-<g id="layer102" fill="#c00320" stroke="none">
+<g id="layer102" fill="coral" stroke="none">
  <path d="M3805 8075 c3 -14 7 -36 10 -50 9 -41 20 -29 23 25 3 45 1 50 -18 50 -16 0 -19 -5 -15 -25z"/>
  <path d="M6025 8090 c3 -6 50 -10 105 -10 55 0 102 4 105 10 4 6 -33 10 -105 10 -72 0 -109 -4 -105 -10z"/>
  <path d="M7320 8090 c0 -5 9 -10 20 -10 11 0 20 5 20 10 0 6 -9 10 -20 10 -11 0 -20 -4 -20 -10z"/>
